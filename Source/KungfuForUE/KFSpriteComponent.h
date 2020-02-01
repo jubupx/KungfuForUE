@@ -13,5 +13,4 @@ UCLASS()
 class KUNGFUFORUE_API UKFSpriteComponent : public UMeshComponent
 {
 	GENERATED_BODY()
-	
 };

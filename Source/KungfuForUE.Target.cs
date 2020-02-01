@@ -9,6 +9,8 @@ public class KungfuForUETarget : TargetRules
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
+        ExtraModuleNames.Add("KFEngineRT");
+		ExtraModuleNames.Add("KFEngineUE");
 		ExtraModuleNames.Add("KungfuForUE");
 	}
 }
