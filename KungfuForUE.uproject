@@ -5,11 +5,34 @@
 	"Description": "",
 	"Modules": [
 		{
+			"Name": "KFEngineRT",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+		,
+		{
+			"Name": "KFEngineUE",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+				,"KFEngineRT"
+			]
+		}
+
+
+		,{
 			"Name": "KungfuForUE",
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
 				"Engine"
+				,"KFEngineRT"
+				,"KFEngineUE"
+
 			]
 		}
 	]

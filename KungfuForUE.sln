@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28315.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{EC58A087-2B01-4F7D-8CD1-8CA5AAEECDCF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{1AF43BF6-F93A-4D26-9F6D-69484067D78B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{822EF3B7-2C9E-4900-91B8-5AB83C09E192}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{6A89708B-3C35-4F52-8CB9-FD443087C4B8}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UE4", "Intermediate\ProjectFiles\UE4.vcxproj", "{CB371B9C-6393-4E45-A566-2C6F78837F90}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KungfuForUE", "Intermediate\ProjectFiles\KungfuForUE.vcxproj", "{910CBCD7-B1E5-422F-90E7-EFF60E2DAEF7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{078BDD7E-644C-4A0E-A0EF-014997AE58B9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{2CFD76AB-8735-4608-9DD4-B562801A66B7}"
 	ProjectSection(SolutionItems) = preProject
 		D:\UE_4.24\Engine\Extras\VisualStudioDebugging\UE4.natvis = D:\UE_4.24\Engine\Extras\VisualStudioDebugging\UE4.natvis
 	EndProjectSection
@@ -63,7 +63,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{CB371B9C-6393-4E45-A566-2C6F78837F90} = {EC58A087-2B01-4F7D-8CD1-8CA5AAEECDCF}
-		{910CBCD7-B1E5-422F-90E7-EFF60E2DAEF7} = {822EF3B7-2C9E-4900-91B8-5AB83C09E192}
+		{CB371B9C-6393-4E45-A566-2C6F78837F90} = {1AF43BF6-F93A-4D26-9F6D-69484067D78B}
+		{910CBCD7-B1E5-422F-90E7-EFF60E2DAEF7} = {6A89708B-3C35-4F52-8CB9-FD443087C4B8}
 	EndGlobalSection
 EndGlobal
