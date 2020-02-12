@@ -1,0 +1,1 @@
+sh "/Users/Shared/Epic Games/UE_4.24/Engine/Build/Batchfiles/Mac/GenerateProjectFiles.sh" -project="/Users/jubupx/GitHub/KungfuForUE/KungfuForUE.uproject"  -game
