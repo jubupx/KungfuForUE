@@ -1,0 +1,51 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Kungfu",
+	"Description": "kungfu",
+	"Category": "Other",
+	"CreatedBy": "jubupx",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+    "EnabledByDefault" : true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+ 
+ {
+     "Name": "KFEngineRT",
+     "Type": "Runtime",
+     "LoadingPhase": "Default",
+     "AdditionalDependencies": [
+         "Engine"
+     ]
+ }
+ ,
+ {
+     "Name": "KFEngineUE",
+     "Type": "Runtime",
+     "LoadingPhase": "Default",
+     "AdditionalDependencies": [
+         "Engine"
+         ,"KFEngineRT"
+     ]
+ }
+ ,
+		{
+			"Name": "Kungfu",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+           "AdditionalDependencies": [
+               "Engine"
+               ,"KFEngineRT"
+               ,"KFEngineUE"
+           ]
+   
+		}
+	]
+}

@@ -9,6 +9,9 @@ public class KungfuForUEEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.Add("KungfuForUE");
+        ExtraModuleNames.Add("KFEngineRT");
+        ExtraModuleNames.Add("KFEngineUE");
+        ExtraModuleNames.Add("KungfuForUE");
+               
 	}
 }

@@ -1,6 +1,7 @@
 // Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 
 using UnrealBuildTool;
+using System.IO;
 
 public class KFEngineRT : ModuleRules
 {
@@ -24,12 +25,33 @@ public class KFEngineRT : ModuleRules
              , "KFEngineRT/KFApp/AppGlobal"
              , "KFEngineRT/KFApp/AppStartup"
         };
-
-        PublicIncludePaths.AddRange(HeadPaths);
+        
         PrivateIncludePaths.AddRange(HeadPaths);
+        
+        string[]  PPaths = new string[]
+        {
+            "KFApp",
+            "KFApp/Network",
+            "KFApp/EditMode",
+            "KFApp/EditMode/Serialize",
+            "KFApp/AppGlobal",
+            "KFApp/AppStartup",
 
-
-
+            "KFRuntime",
+            "KFRuntime/KFData",
+            "KFRuntime/KFScript",
+            "KFRuntime/Core",
+            "KFRuntime/ACTS",
+            "KFRuntime/iSay"
+        
+        };
+        
+        
+        for(int i = 0;i < PPaths.Length; i ++)
+        {
+            PublicIncludePaths.Add(Path.Combine(ModuleDirectory, PPaths[i]));
+        }
+        
         PublicDependencyModuleNames.AddRange(new string[] 
         { "Core"
         , "CoreUObject"
